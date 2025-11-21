@@ -49,28 +49,6 @@ import seaborn as sns
 - Simple feature subset creation for exploratory predictors.
 - Quality distribution visualization (`countplot`).
 
-## Next Improvements (Suggested)
-- Add a train/test split and baseline model (e.g., RandomForestClassifier or LogisticRegression).
-- Evaluate metrics (accuracy, F1, confusion matrix) and persist a trained model (`joblib`).
-- Create a `train.py` script in root if you later move beyond the notebook.
-- Add `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` for collaboration.
-- Optional GitHub Actions workflow for linting (flake8) & tests.
-
-## GitHub Workflow (Manual Push)
-```powershell
-git init
-git add .
-git commit -m "Initial commit: baseline wine quality analysis"
-git branch -M main
-git remote add origin <your-repo-url>
-git push -u origin main
-```
-
-## Reproducibility Tip
-After adding modeling scripts, include a command like:
-```powershell
-python src/train.py --data data/winequality-red.csv --model-out models/wine_rf.joblib
-```
 
 ## License
 Released under the MIT License. See `LICENSE` for details.
@@ -83,3 +61,4 @@ Open an issue or submit a pull request. (You can create `CONTRIBUTING.md` later 
 
 ---
 Feel free to request script creation, CI setup, or additional documentation and they can be added.
+
