@@ -1,0 +1,49 @@
+# Python ignores
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (keep raw CSVs out of version if large)
+*.csv
+!data/winequality-red.csv
+
+# Logs / temp
+*.log
+*.tmp
+*.swp
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.code-workspace
+
+# OneDrive sync artifacts
+*.lnk
+~$*
+
+# VS Code
+.vscode/
+
+# Cache
+.cache/
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+
+# Reports
+reports/
+
